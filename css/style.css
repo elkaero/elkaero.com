@@ -75,24 +75,6 @@ a:hover {
     flex-direction: column;
 }
 
-footer {
-    margin-top: auto;
-    padding: 30px 0;
-    border-top: 1px solid var(--border-color);
-}
-
-.main-content {
-    flex: 1;
-    margin-left: 240px;
-    padding: 60px 80px;
-}
-
-footer {
-    padding: 30px 0;
-    margin-top: auto;
-    border-top: 1px solid var(--border-color);
-}
-
 .sidebar {
     width: 240px;
     background-color: var(--bg-color);
@@ -337,7 +319,7 @@ footer {
 /* Footer */
 footer {
     margin-top: auto;
-    padding: 20px 0;
+    padding: 21px 0;
     border-top: 1px solid var(--border-color);
 }
 
