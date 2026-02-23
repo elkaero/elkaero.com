@@ -1,1 +1,3 @@
 *.org
+/agent
+/archive
