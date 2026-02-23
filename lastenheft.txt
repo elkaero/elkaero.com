@@ -1,0 +1,273 @@
+================================================================================
+LASTENHEFT: ERSTELLUNG EINER WEBSEITE
+================================================================================
+
+1. ALLGEMEINE INFORMATIONEN
+--------------------------------------------------------------------------------
+
+Projektname: elkaero Personal Web Space
+Auftraggeber: elkaero
+Auftragnehmer: elkaero
+Projektstart: 22.02.2026
+Geplante Fertigstellung: 22.02.2026
+Budget: pro Bono
+Ansprechpartner Auftraggeber: elkaero, 
+
+
+2. PROJEKTBESCHREIBUNG
+--------------------------------------------------------------------------------
+
+Kurzbeschreibung:
+[Beschreiben Sie in 2-3 Sätzen, worum es bei dieser Website geht]
+Die Webseite ist der persoenliche Webspace von elkaero.
+Dort wird er Artikel veroeffentlich, interessantes Material sammeln,
+und von seinen Projekten mitteilen.
+Sie ist in erster Linie gedacht als professioneller Webauftritt, den
+elkaero vertreten kann, der also nicht etwas wiederspiegelt,
+das er nicht ist oder sein moechte.
+Professioneller Webauftritt bedeutet in dieser Hinsicht, dass die Webseite
+den derzeitigen Standards einer guten Webseite entspricht, das heisst also
+zum Beispiel, dass sie vollstaendig ist, dass es keine Rechtschreibfehler
+gibt, dass bestimmte nice features gut funktionieren (zB detect Broswerlanguage and
+serve most important parts in english).
+Professioneller Webauftritt bedeutet in dieser Hinsicht auch, dass er sich an potentielle
+Employer wendet. Das muss nicht allzu tief gehen, aber es muss ein guter Auftritt sein.
+Dort steht dann leicht verstaendliches, semi-persoenliches oder zumindest menschliches,
+neben nerdy-interessanten Dingen, evtl auch eine Animation irgendeines Algorithmus. 
+
+
+Ziele:
+- Diese Webseite macht elkaero Spass und Lust darauf, Texte zu schreiben und
+  Projekte zu erstellen, fertig zu stellen, zu praesentieren
+- Arbeitgeber ist beeindruckt und stellt mich ein
+- Die Webseite laeuft lange und waechst mit der Zeit
+
+Zielgruppe:
+[Wer soll die Website nutzen? z.B. Kunden, Geschäftspartner, Mitarbeiter]
+Kunden, Interessierte, elkaero
+
+Geschäftskontext:
+[In welchem geschäftlichen Kontext entsteht die Website?]
+Es gibt keinen Geschaeftlichen Hintergrund.
+
+3. FUNKTIONALE ANFORDERUNGEN
+--------------------------------------------------------------------------------
+
+3.1 Allgemeine Funktionen
+- Landing Page
+- Writing Page
+- Projects Page
+- Visuals Page
+- About Page 
+- Contact
+- Footer Connection to at least Github
+
+
+ 3.2 Spezifische Funktionen
+ [Detaillieren Sie hier besondere Anforderungen]
+ - Check if user has english settings in Browser and redirect accordingly to english page
+ - 
+
+
+
+
+3.3 Benutzerführung
+[Beschreiben Sie, wie Benutzer die Website nutzen sollen]
+
+-> Landing Page -> [Writing, Projects, Visuals, About, Contact] -> [Home, Contact]
+
+
+3.4 Datenverwaltung
+[Welche Daten sollen gespeichert und verwaltet werden?]
+Keine. Es ist alles statisch. 
+
+4. NICHT-FUNKTIONALE ANFORDERUNGEN
+--------------------------------------------------------------------------------
+
+4.1 Performance
+- Ladezeit: Snappy! Fast! Should be no issue as everything is static. 
+- Gleichzeitige Benutzer: Gleichzeitige Nutzer: 500
+- Verfügbarkeit: 99,5%
+
+4.2 Sicherheit
+- SSL/TLS-Verschlüsselung: Ja
+- Datenschutz (DSGVO): [Anforderungen] -> TODO
+- Authentifizierung: Server SSH
+- Backup-Strategie: Backup on Edit -> Git
+
+4.3 Kompatibilität
+- Browser:  Chrome, Firefox, Safari
+- Geräte:  Desktop, Tablet, Smartphone]
+- Betriebssysteme: Linux, iOS, MacOS, Windows (should be okay with everything) 
+
+4.4 Wartbarkeit
+- CMS erforderlich: Nein
+- Dokumentation: Reports on Edit. 
+- Support nach Launch: mind. 2 Jahre
+
+
+5. DESIGN UND BENUTZEROBERFLÄCHE
+--------------------------------------------------------------------------------
+
+5.1 Design-Anforderungen
+- Corporate Design: Nein, professionell aber auch nicht branded.
+- Farbschema: 
+#8DBCC7
+#A4CCD9
+#C4E1E6
+#EBFFD8
+- Schriftarten: Font: Rubik Light 300 for Paragraphs, Rubik Regular 400 for Headings. 
+- Stil: modern, minimalistisch, aber nicht clean.
+
+5.2 Seitenstruktur
+- Startseite: Small Introduction, Hello this is my Space, thats what i do, here you can find...
+- Projekttseiten: Erstmal etwas freihalten, Writing
+- Über uns: Vielleicht 2 Absaetze, 3 tops. 
+- Kontakt: Contact, Email, thats it
+- Weitere Seiten: 
+
+5.3 Responsive Design
+- Mobile First: Ja
+- Breakpoints: [z.B. 320px, 768px, 1024px] (das was gelaeufig ist)
+
+
+6. INHALT UND STRUKTUR
+--------------------------------------------------------------------------------
+
+6.1 Seitenanzahl
+[Ungefähre Anzahl der Seiten]
+Landing, Writing, Projects, About me, Contact
+= 5
+
+
+6.2 Inhalte
+- Texte: [Wer stellt diese bereit? -> elkaero
+- Bilder/Grafiken: [Wer stellt diese bereit? Menge?] -> Wird es erst einmal nicht geben. 
+- Dokumente: Wird es erst mal nicht geben. 
+
+6.3 Mehrsprachigkeit
+- Sprachen: English first. 
+- Lokalisierung: Evtl -> Lokalisierung fuer dt. Sprache. 
+
+
+7. INTEGRATION UND SCHNITTSTELLEN
+--------------------------------------------------------------------------------
+
+KEINE
+
+{7.1 Externe Systeme
+- [System 1, z.B. "E-Mail-Marketing-Tool"]
+- [System 2, z.B. "CRM-System"]
+- [System 3, z.B. "Zahlungsanbieter"]
+
+7.2 APIs
+[Welche APIs müssen angebunden werden?]
+
+7.3 Datenquellen
+[Woher kommen die Daten für die Website?]}
+
+
+8. TECHNISCHE VORGABEN
+--------------------------------------------------------------------------------
+
+Wir haben eine Debian Box. 
+
+8.1 Hosting
+- Hosting-Anforderungen: [z.B. Shared Hosting, dedizierter Server]
+- Speicherplatz: [z.B. 50 GB]
+- Bandbreite: [z.B. unbegrenzt]
+
+8.2 Technologie-Stack
+- Programmiersprache(n): Html, CSS, evtl JS
+- Framework: keine
+- Datenbank: keine
+- CMS: keine
+
+8.3 SEO
+- SEO-Optimierung erforderlich: nein.
+- Keywords: [Wichtigste Keywords]
+- Meta-Tags: [Anforderungen]
+
+8.4 Analytics
+- Google Analytics: Nein
+- Weitere Tools: [z.B. Hotjar, Matomo]
+
+
+9. QUALITÄTSSICHERUNG
+--------------------------------------------------------------------------------
+NEIN
+
+9.1 Testing
+- Funktionales Testing: [Ja/Nein]
+- Performance-Testing: [Ja/Nein]
+- Sicherheits-Testing: [Ja/Nein]
+- Browser-Testing: [Ja/Nein]
+
+9.2 Abnahmekriterien
+- [Kriterium 1]
+- [Kriterium 2]
+- [Kriterium 3]
+
+
+10. ZEITPLAN UND MEILENSTEINE
+--------------------------------------------------------------------------------
+
+- Phase 1 - Konzept/Design: <2026-02-22 So>
+- Phase 2 - Entwicklung: [Datum]
+- Phase 3 - Testing: [Datum]
+- Phase 4 - Launch: [Datum]
+- Phase 5 - Support: [Datum]
+
+
+11. BUDGET UND RESSOURCEN
+--------------------------------------------------------------------------------
+
+1000 EUR
+
+Gesamtbudget: [Betrag]
+Budgetverteilung:
+- Design: [Betrag]
+- Entwicklung: [Betrag]
+- Testing: [Betrag]
+- Sonstiges: [Betrag]
+
+Verfügbare Ressourcen:
+- Vom Auftraggeber: [z.B. 2 Personen für Content]
+- Vom Auftragnehmer: [z.B. 1 Designer, 2 Entwickler]
+
+
+12. RISIKEN UND ANNAHMEN
+--------------------------------------------------------------------------------
+
+Annahmen:
+- [Annahme 1]
+- [Annahme 2]
+
+Bekannte Risiken:
+- [Risiko 1 und Mitigation]
+- [Risiko 2 und Mitigation]
+
+
+13. ÄNDERUNGSMANAGEMENT
+--------------------------------------------------------------------------------
+
+[Wie werden Änderungswünsche während des Projekts gehandhabt?]
+[Welche Prozesse gibt es?]
+[Wer genehmigt Änderungen?]
+
+
+14. GÜLTIGKEITSDAUER UND UNTERSCHRIFTEN
+--------------------------------------------------------------------------------
+
+Dieses Lastenheft ist gültig ab: <2026-02-22 So>
+Gültig bis: <2026-03-01 So>
+
+Auftraggeber:
+elkaero
+[Unterschrift, Datum]
+
+Auftragnehmer:
+elkaero
+[Unterschrift, Datum]
+
+================================================================================

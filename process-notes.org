@@ -1,0 +1,37 @@
+* Debian Web Server
+
+** Going through the securing Debian tutorial
+[[https://www.debian.org/doc/manuals/securing-debian-manual/ch02.en.html#idm287]]
+
+
+*** What to do with server?
+- host website
+- host other small services that i create myself
+
+-> deinstall unneeded things/services
+-> or add stuff
+
+- users and permissions
+
+ok, i read a bit and now i am getting exhausted.
+actually  wanna use my system,
+not... stop while configurating
+
+** using a different approach
+okay got the page up by:
+1. installing appache2
+2. allowing up Apache Full in ufw
+3. enabling the site with a2ensite
+4. pointing the A record in namecheap to the public IP
+5. got a https certificate with certbot
+
+   works.
+
+
+** now make the machine write me some nice website.
+This will be the actual Lastenbuch part:
+
+[[./lastenheft.txt]]
+
+-> Weiter ausfuellen bisher nur bis 4 ausgefuellt.
+
